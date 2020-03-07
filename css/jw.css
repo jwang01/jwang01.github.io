@@ -1,0 +1,77 @@
+BODY  {
+	background-color : #FFFFFF;
+}
+.msgError {
+	color: red;
+	font: bold 12pt arial;
+}
+.msgWarn {
+	color: orange;
+	font: bold 12pt arial;
+}
+.msgConfirm {
+	color: green;
+	font: bold 12pt arial;
+}
+.msgInfo {
+	color: blue;
+	font: bold 12pt arial;
+}
+
+.tblTitle  {
+	background-color : #009933;
+	color : #FFFFFF;
+	font: bold 14pt arial
+}
+.tblHeader  {
+	background-color : #33BB55;
+	color: #EEEEEE;
+	font: bold 13pt arial
+}
+.tblHeadSide  {
+	background-color : #77DD77;
+	font: bold 12pt arial
+}
+.tblText  {
+	font: 11pt;
+}
+.tblTextAlt  {
+	font: 11pt;
+	background-color : #DDDDDD;
+}
+.tblTextRed  {
+	font: 11pt;
+	background-color : #FF0000;
+}
+.vis { visibility:visible }
+.hid { visibility:hidden }
+
+/* ==================== top menu ==================== */
+.menubar {list-style-type: none; margin: 0; padding: 0; } 
+.menu {font: bold 13pt arial;  float: left;  color: #ffffff; background: #009933; display: block;
+    BORDER-TOP: #009933 1px solid;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+} 
+.menu a, .menu a:visited {font: bold 13pt arial;  color: #ffffff; padding-left:15px; padding-right:14px; padding-top:0px; padding-bottom:0px; display: block; text-decoration: none; }
+.menu a:hover {font: bold 13pt arial; color: #ffffff; background: #77DD77; display: block; text-decoration: none; padding-left:15px; padding-right:14px; padding-top:0px; padding-bottom:0px } 
+
+.menuX  {font: bold 13pt arial;  float: left;  color: #000000; background: #ffffff; display: block;
+    BORDER-TOP: #009933 1px solid;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+.menuX a, .menuX a:visited {font: bold 13pt arial;  color: #000000; padding-left:15px; padding-right:14px; padding-top:0px; padding-bottom:0px; display: block; text-decoration: none; }
+.menuX a:hover {font: bold 13pt arial; color: #000000; background: #77DD77; display: block; text-decoration: none; padding-left:15px; padding-right:14px; padding-top:0px; padding-bottom:0px } 
+
+
+
+/* ==================== flyout menu ==================== */
+
+ul.submenu {font: 13px arial; list-style-type: none; position: absolute; margin: 0; padding: 0; display: none; width: 180px;  } 
+ul.submenu li {font: 13px arial; arialpadding: 0; margin: 0;} 
+ul.submenu li a, ul.submenu li a:visited {font: 13px arial; padding: 3px 3px 3px 16px; color: #000; border: 1px solid #ebebeb; text-decoration: none; margin: 0;} 
+ul.submenu li a:hover {font: 13px arial; padding: 3px 3px 3px 16px; text-decoration: none; background: #fff; color: #000; border: 1px solid #3699dd; } 
+li:hover ul, li.over ul {margin: 0; padding: 4px; display: block; background: #77DD77;} 
+
+.plainLnk a {text-decoration: none}
